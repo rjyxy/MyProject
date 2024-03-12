@@ -1,0 +1,13 @@
+person:
+  name: 张飞
+  age: 20
+  happy: false
+  birthday: 2001/04/07
+  maps: {k1:v1,k2:v2}
+  list:
+    - code
+    - girl
+    - music
+  dog:
+    name: 虎子
+    age: ${random.int(1,20)}

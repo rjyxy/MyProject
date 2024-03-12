@@ -1,0 +1,10 @@
+# Spring Boot 学习项目初始化
+
+## 1.Spring Boot 起步练习
+spring-boot-quickstart
+
+## 2.Spring Boot配置管理
+spring-boot-config
+
+##3.Spring Boot静态资源和模板引擎
+spring-boot-template
