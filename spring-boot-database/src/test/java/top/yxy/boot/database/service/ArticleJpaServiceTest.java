@@ -18,9 +18,9 @@ class ArticleJpaServiceTest {
     @Test
     void saveArticle() {
         Article article = Article.builder()
-                .author("yxy")
-                .title("Spring Boot JPA")
-                .content("Spring Boot JPA")
+                .author("zhangsan")
+                .title("Spring Boot Vue")
+                .content("Spring Boot Vue")
                 .build();
         articleJpaService.saveArticle(article);
     }
