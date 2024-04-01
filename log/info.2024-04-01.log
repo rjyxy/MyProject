@@ -42,3 +42,36 @@
 2024-04-01 17:12:35,510 [INFO] [http-nio-8080-exec-1] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-04-01 17:12:35,510 [INFO] [http-nio-8080-exec-1] [36mo.s.w.s.DispatcherServlet[532][0;39m : Initializing Servlet 'dispatcherServlet'
 2024-04-01 17:12:35,511 [INFO] [http-nio-8080-exec-1] [36mo.s.w.s.DispatcherServlet[554][0;39m : Completed initialization in 0 ms
+2024-04-01 21:54:19,025 [INFO] [restartedMain] [36mt.y.b.l.LogApplication[50][0;39m : Starting LogApplication using Java 17.0.9 with PID 22868 (F:\yang\spring-boot-learning\spring-boot-log\target\classes started by Administrator in F:\yang\spring-boot-learning)
+2024-04-01 21:54:19,027 [INFO] [restartedMain] [36mt.y.b.l.LogApplication[660][0;39m : The following 1 profile is active: "dev"
+2024-04-01 21:54:19,086 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01 21:54:19,087 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01 21:54:20,262 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[109][0;39m : Tomcat initialized with port 8080 (http)
+2024-04-01 21:54:20,275 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-01 21:54:20,277 [INFO] [restartedMain] [36mo.a.c.c.StandardService[173][0;39m : Starting service [Tomcat]
+2024-04-01 21:54:20,278 [INFO] [restartedMain] [36mo.a.c.c.StandardEngine[173][0;39m : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 21:54:20,331 [INFO] [restartedMain] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring embedded WebApplicationContext
+2024-04-01 21:54:20,332 [INFO] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[296][0;39m : Root WebApplicationContext: initialization completed in 1243 ms
+2024-04-01 21:54:20,880 [INFO] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[59][0;39m : LiveReload server is running on port 35729
+2024-04-01 21:54:20,896 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Starting ProtocolHandler ["http-nio-8080"]
+2024-04-01 21:54:20,914 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[241][0;39m : Tomcat started on port 8080 (http) with context path ''
+2024-04-01 21:54:20,930 [INFO] [restartedMain] [36mt.y.b.l.LogApplication[56][0;39m : Started LogApplication in 2.542 seconds (process running for 3.045)
+2024-04-01 21:54:32,175 [INFO] [restartedMain] [36mt.y.b.l.LogApplication[50][0;39m : Starting LogApplication using Java 17.0.9 with PID 25356 (F:\yang\spring-boot-learning\spring-boot-log\target\classes started by Administrator in F:\yang\spring-boot-learning)
+2024-04-01 21:54:32,178 [INFO] [restartedMain] [36mt.y.b.l.LogApplication[660][0;39m : The following 1 profile is active: "dev"
+2024-04-01 21:54:32,226 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01 21:54:32,227 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01 21:54:33,299 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[109][0;39m : Tomcat initialized with port 8080 (http)
+2024-04-01 21:54:33,315 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-01 21:54:33,318 [INFO] [restartedMain] [36mo.a.c.c.StandardService[173][0;39m : Starting service [Tomcat]
+2024-04-01 21:54:33,319 [INFO] [restartedMain] [36mo.a.c.c.StandardEngine[173][0;39m : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 21:54:33,372 [INFO] [restartedMain] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring embedded WebApplicationContext
+2024-04-01 21:54:33,372 [INFO] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[296][0;39m : Root WebApplicationContext: initialization completed in 1144 ms
+2024-04-01 21:54:33,890 [INFO] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[59][0;39m : LiveReload server is running on port 35729
+2024-04-01 21:54:33,915 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Starting ProtocolHandler ["http-nio-8080"]
+2024-04-01 21:54:33,935 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[241][0;39m : Tomcat started on port 8080 (http) with context path ''
+2024-04-01 21:54:33,954 [INFO] [restartedMain] [36mt.y.b.l.LogApplication[56][0;39m : Started LogApplication in 2.272 seconds (process running for 2.701)
+2024-04-01 21:54:36,609 [INFO] [http-nio-8080-exec-1] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-01 21:54:36,609 [INFO] [http-nio-8080-exec-1] [36mo.s.w.s.DispatcherServlet[532][0;39m : Initializing Servlet 'dispatcherServlet'
+2024-04-01 21:54:36,610 [INFO] [http-nio-8080-exec-1] [36mo.s.w.s.DispatcherServlet[554][0;39m : Completed initialization in 0 ms
+2024-04-01 21:54:36,645 [INFO] [http-nio-8080-exec-1] [36mt.y.b.l.i.AccessLogInterceptor[58][0;39m : AccessLog(username=null, uri=/log, duration=19, httpMethod=GET, httpStatus=200, ip=127.0.0.1, createTime=Mon Apr 01 21:54:36 CST 2024)
+2024-04-01 21:54:36,645 [INFO] [http-nio-8080-exec-1] [36mt.y.b.l.i.AccessLogInterceptor[63][0;39m : afterCompletion... 
