@@ -1,0 +1,41 @@
+2024-04-01 17:08:57,416 [INFO] [restartedMain] [36mt.y.b.l.LogApplication[50][0;39m : Starting LogApplication using Java 17.0.9 with PID 10896 (F:\yang\spring-boot-learning\spring-boot-log\target\classes started by Administrator in F:\yang\spring-boot-learning)
+2024-04-01 17:08:57,418 [INFO] [restartedMain] [36mt.y.b.l.LogApplication[660][0;39m : The following 1 profile is active: "dev"
+2024-04-01 17:08:57,484 [INFO] [restartedMain] [36mt.y.b.l.LogApplication[50][0;39m : Starting LogApplication using Java 17.0.9 with PID 25004 (F:\yang\spring-boot-learning\spring-boot-log\target\classes started by Administrator in F:\yang\spring-boot-learning)
+2024-04-01 17:08:57,487 [INFO] [restartedMain] [36mt.y.b.l.LogApplication[660][0;39m : The following 1 profile is active: "dev"
+2024-04-01 17:08:57,548 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01 17:08:57,548 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01 17:08:57,710 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[109][0;39m : Tomcat initialized with port 8080 (http)
+2024-04-01 17:08:57,711 [INFO] [restartedMain] [36mo.a.c.c.StandardService[173][0;39m : Starting service [Tomcat]
+2024-04-01 17:08:57,712 [INFO] [restartedMain] [36mo.a.c.c.StandardEngine[173][0;39m : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:08:57,726 [INFO] [restartedMain] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring embedded WebApplicationContext
+2024-04-01 17:08:57,726 [INFO] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[296][0;39m : Root WebApplicationContext: initialization completed in 305 ms
+2024-04-01 17:08:57,911 [INFO] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[59][0;39m : LiveReload server is running on port 35729
+2024-04-01 17:08:57,927 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[241][0;39m : Tomcat started on port 8080 (http) with context path ''
+2024-04-01 17:08:57,934 [INFO] [restartedMain] [36mt.y.b.l.LogApplication[56][0;39m : Started LogApplication in 0.582 seconds (process running for 3335.877)
+2024-04-01 17:08:57,936 [INFO] [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[63][0;39m : Condition evaluation unchanged
+2024-04-01 17:08:58,711 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[109][0;39m : Tomcat initialized with port 8080 (http)
+2024-04-01 17:08:58,722 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-01 17:08:58,724 [INFO] [restartedMain] [36mo.a.c.c.StandardService[173][0;39m : Starting service [Tomcat]
+2024-04-01 17:08:58,725 [INFO] [restartedMain] [36mo.a.c.c.StandardEngine[173][0;39m : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:08:58,769 [INFO] [restartedMain] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring embedded WebApplicationContext
+2024-04-01 17:08:58,769 [INFO] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[296][0;39m : Root WebApplicationContext: initialization completed in 1220 ms
+2024-04-01 17:08:59,294 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Starting ProtocolHandler ["http-nio-8080"]
+2024-04-01 17:08:59,318 [INFO] [restartedMain] [36mo.s.b.a.l.ConditionEvaluationReportLogger[82][0;39m : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-01 17:09:59,983 [INFO] [restartedMain] [36mt.y.b.l.LogApplication[50][0;39m : Starting LogApplication using Java 17.0.9 with PID 9868 (F:\yang\spring-boot-learning\spring-boot-log\target\classes started by Administrator in F:\yang\spring-boot-learning)
+2024-04-01 17:09:59,984 [INFO] [restartedMain] [36mt.y.b.l.LogApplication[660][0;39m : The following 1 profile is active: "dev"
+2024-04-01 17:10:00,021 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01 17:10:00,022 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01 17:10:00,678 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[109][0;39m : Tomcat initialized with port 8080 (http)
+2024-04-01 17:10:00,685 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-01 17:10:00,687 [INFO] [restartedMain] [36mo.a.c.c.StandardService[173][0;39m : Starting service [Tomcat]
+2024-04-01 17:10:00,687 [INFO] [restartedMain] [36mo.a.c.c.StandardEngine[173][0;39m : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:10:00,715 [INFO] [restartedMain] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring embedded WebApplicationContext
+2024-04-01 17:10:00,715 [INFO] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[296][0;39m : Root WebApplicationContext: initialization completed in 692 ms
+2024-04-01 17:10:01,039 [INFO] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[59][0;39m : LiveReload server is running on port 35729
+2024-04-01 17:10:01,049 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Starting ProtocolHandler ["http-nio-8080"]
+2024-04-01 17:10:01,061 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[241][0;39m : Tomcat started on port 8080 (http) with context path ''
+2024-04-01 17:10:01,069 [INFO] [restartedMain] [36mt.y.b.l.LogApplication[56][0;39m : Started LogApplication in 1.486 seconds (process running for 1.888)
+2024-04-01 17:10:35,899 [INFO] [File Watcher] [36mo.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[211][0;39m : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-01 17:10:35,902 [INFO] [Thread-5] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Stopping ProtocolHandler ["http-nio-8080"]

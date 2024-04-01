@@ -1,0 +1,13 @@
+Spring:
+  profiles:
+    active: dev
+
+logging:
+  level:
+    root: info
+    top.yxy.boot.log.controller: debug
+  file:
+    path: F:\yang\spring-boot-learning\log
+  pattern:
+    console: '%red(%d{HH:mm:ss}) %green([%thread]) %highlight(%-5level) %boldMagenta(%logger{10}) - %cyan(%msg%n)'
+

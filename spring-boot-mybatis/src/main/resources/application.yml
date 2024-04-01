@@ -17,3 +17,7 @@ mybatis:
     # mybatis开启驼峰式命名
     map-underscore-to-camel-case: true
 
+#日志配置
+logging:
+  level:
+    com.baomidou.mybatisplus.samples: debug
