@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Spring Boot 学习项目初始化
 
 ## 1.Spring Boot 起步练习
@@ -9,7 +8,3 @@ spring-boot-config
 
 ##3.Spring Boot静态资源和模板引擎
 spring-boot-template
-
-###4.Spring Boot 数据库接入
-spring-boot-databae
-

@@ -1,0 +1,2 @@
+2024-04-15 14:48:56,588 [WARN] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[62][0;39m : Unable to start LiveReload server
+2024-04-15 14:48:56,615 [WARN] [restartedMain] [36mo.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext[632][0;39m : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'

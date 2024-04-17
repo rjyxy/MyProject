@@ -1,0 +1,14 @@
+2024-04-15 14:48:53,122 [INFO] [restartedMain] [36mt.y.b.l.LogApplication[50][0;39m : Starting LogApplication using Java 17.0.9 with PID 41896 (F:\yang\spring-boot-learning\spring-boot-log\target\classes started by Administrator in F:\yang\spring-boot-learning)
+2024-04-15 14:48:53,125 [INFO] [restartedMain] [36mt.y.b.l.LogApplication[660][0;39m : The following 1 profile is active: "dev"
+2024-04-15 14:48:53,234 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-15 14:48:53,236 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-15 14:48:55,979 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[109][0;39m : Tomcat initialized with port 8080 (http)
+2024-04-15 14:48:55,989 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-15 14:48:55,992 [INFO] [restartedMain] [36mo.a.c.c.StandardService[173][0;39m : Starting service [Tomcat]
+2024-04-15 14:48:55,993 [INFO] [restartedMain] [36mo.a.c.c.StandardEngine[173][0;39m : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-15 14:48:56,044 [INFO] [restartedMain] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring embedded WebApplicationContext
+2024-04-15 14:48:56,044 [INFO] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[296][0;39m : Root WebApplicationContext: initialization completed in 2805 ms
+2024-04-15 14:48:56,609 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Starting ProtocolHandler ["http-nio-8080"]
+2024-04-15 14:48:56,638 [INFO] [restartedMain] [36mo.s.b.a.l.ConditionEvaluationReportLogger[82][0;39m : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
