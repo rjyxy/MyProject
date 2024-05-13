@@ -1,0 +1,41 @@
+spring:
+  mail:
+    host: smtp.qq.com  #邮件服务器
+    username: 16422802@qq.com  #2917755602@qq.com
+    password: xljysarroigsdfid
+    protocol: smtp #发送邮件的协议
+    properties.mail.smtp.auth: true
+    properties.mail.smtp.part: 465  #邮件发送端口
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+    properties.mail.smtp.ssl.enable: true
+    default-encoding: utf-8
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_boot_yxy?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+    driverClassName: com.mysql.cj.jdbc.Driver
+  quartz:
+    job-store-type: JDBC #数据库存储quartz任务配置
+    jdbc:
+      initialize-schema: always #自动初始化表结构，第一次启动的时候这里写always
+
+mybatis-plus:
+  #  指定相应接口对应的xml文件所在目录
+  mapper-locations: classpath:mapper/*.xml
+  #  实体类所在包
+  type-aliases-package: top.yxy.boot.task.entity
+  configuration:
+    # mybatis开启驼峰式命名
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  # 调试时打印sql
+  global-config:
+    db-config:
+      logic-delete-field: deleted # 全局逻辑删除的实体字段名(since 3.3.0,配置后可以忽略不配置步骤2)
+      logic-delete-value: 1 # 逻辑已删除的值 默认为1
+      logic-not-delete-value: 0 # 逻辑未删除的值 默认为0
+
+logging:
+  level:
+    com.baomidou.mybatisplus.samples: debug
