@@ -1,0 +1,38 @@
+server:
+  port: 8080
+  servlet:
+  context-path: /
+spring:
+  servlet:
+  multipart:
+  max-file-size: 10485760
+  max-request-size: 10485760
+  application:
+  name: filter-interceptor
+
+#springdoc-openapi
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: order
+  api-docs:
+    path: /v3/api-docs
+  group-configs:
+    - group: 'default'
+      display-name: '接口文档'
+      paths-to-match: '/**'
+      packages-to-scan: top.yxy.boot.fi.controller
+
+# knife4j
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+  #可以省略
+  basic:
+    enable: true
+    username: admin
+    password: 123456
+
+
