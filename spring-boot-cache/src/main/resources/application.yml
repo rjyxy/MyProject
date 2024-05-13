@@ -1,0 +1,22 @@
+spring:
+  data:
+    redis:
+      port: 6379       # Redis 服务器连接端口
+      host: 127.0.0.1  # Redis 服务器地址
+      database: 0      # Redis 数据库索引（默认为 0）
+      password:        # Redis 服务器连接密码（默认为空）
+      lettuce:
+        pool:
+          min-idle: 10   # 连接池中的最大空闲连接 默认 8
+          max-idle: 20   # 连接池中的最小空闲连接 默认 0
+          max-active: 100   # 连接池最大连接数（使用负值表示没有限制） 默认 8
+yxy:
+  sms:
+    ccp:
+      serverIp: app.cloopen.com
+      port: 8883
+      accountSId: 2c94811c8cd4da0a018f0478ee486acb
+      accountToken: 98276558a33c450cb63b80590f2e89a4
+      appId: 2c94811c8cd4da0a018f0478efd36ad2
+      templateId: 1 #默认模板
+

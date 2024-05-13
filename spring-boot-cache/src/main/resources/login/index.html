@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手机验证码登录</title>
+
+</head>
+<body>
+<form id="loginForm">
+    <label for="phone">手机号：</label>
+    <input type="text" id="phone" name="phone" required>
+    <br>
+    <label for="code">验证码：</label>
+    <input type="text" id="code" name="code" required>
+    <button type="button" onclick="sendCode()">发送验证码</button>
+    <br>
+    <button type="submit">登录</button>
+</form>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    var timer = null;
+
+    function sendCode() {
+        var phone = $('#phone').val();
+        if (!phone) {
+            alert('请输入手机号');
+            return;
+        }
+        if (timer) {
+            alert('请等待60秒后再发送验证码');
+            return;
+        }
+        if (phone.length < 11 || phone.length >11) {
+            alert('手机号不足13位');
+            return;
+        }
+        $.ajax({
+            url: 'http://localhost:8080/sms/send',
+            method: 'POST',
+            data: { phone: phone },
+            success: function (data) {
+                alert('验证码已发送');
+                timer = setTimeout(function () {
+                    timer = null;
+                }, 60000);
+            },
+            error: function () {
+                console.log(data)
+                alert('发送验证码失败');
+            }
+        });
+    }
+    $('#loginForm').on('submit', function (e) {
+        e.preventDefault();
+        var phone = $('#phone').val();
+        var code = $('#code').val();
+        if (!phone || !code) {
+            alert('请输入手机号和验证码');
+            return;
+        }
+        if (phone.length < 11 || phone.length >11) {
+            alert('手机号不足13位');
+            return;
+        }
+        if (code.length < 4 || code.length > 4) {
+            alert('验证码不足4位');
+            return;
+        }
+        $.ajax({
+            url: 'http://localhost:8080/auth/login',
+            method: 'POST',
+            data: { phone: phone, code: code },
+            success: function (data) {
+                if (data) {
+                    alert('登录成功');
+                }
+            },
+            error: function () {
+                alert('登录失败');
+            }
+        });
+    });
+</script>
+</body>
+</html>
